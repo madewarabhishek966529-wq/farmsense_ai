@@ -1,0 +1,17 @@
+# PUBSPEC CHANGE REQUIRED
+# In your pubspec.yaml, make ONE change in dependencies:
+
+# REMOVE this line:
+#   google_generative_ai: ^0.4.6
+
+# ADD this line instead:
+#   http: ^1.2.1
+
+# Everything else in pubspec.yaml stays exactly the same.
+
+# ─────────────────────────────────────────────
+# .env file — paste your Groq API key:
+#   GEMINI_API_KEY=gsk_xxxxxxxxxxxxxxxxxxxx
+#
+# Get your free Groq API key at: https://console.groq.com
+# ─────────────────────────────────────────────
